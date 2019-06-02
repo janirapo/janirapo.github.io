@@ -1,10 +1,13 @@
-.torneopal_widget .scoretable {
-  width: 400px;
+.torneopal_widget table {
   font-family: Ubuntu, Arial;
   border: 1px solid #aac;
 }
 
-.torneopal_widget .scoretable th {
+.torneopal_widget .scoretable table {
+  width: 400px;
+}
+
+.torneopal_widget th {
   text-align: center;
   background: #aac;
   color: #fff;
@@ -22,7 +25,7 @@
   padding: 4px 2px;
 }
 
-.torneopal_widget .scoretable tr:nth-child(even) td {
+.torneopal_widget tr:nth-child(even) td {
   background: #eee;
 }
 

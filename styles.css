@@ -1,6 +1,18 @@
+body {
+  max-width: 1200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.torneopal_widget {
+  padding: 10px 10px 10px 10px;
+}
+
 .torneopal_widget table {
   font-family: Ubuntu, Arial;
   border: 1px solid #aac;
+  min-width: 275px;
 }
 
 .torneopal_widget .scoretable table {
@@ -31,4 +43,27 @@
 
 .torneopal_widget #updated {
   display: none;
+}
+
+.header-container,
+.table-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-container img {
+  height: 250px;
+  width: 250px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-container,
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

@@ -4,21 +4,23 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Island Boys</h1>
+    <div class="header-container">
+      <img alt="Island Boys" src="ib_logo.jpg" />
+    </div>
     
     <div class="torneopal_widget">
       <h3>Joukkueen seuraava ottelu</h3>
       <script src="https://tulospalvelu.finnhandball.net/taso/widget.php?widget=nextmatch&team=102936&key=NBSJNW9ZKV"></script>
     </div>
     
-    <div class="torneopal_widget">
-      <h3>M1D sarjataulukko (Sarjat 2019-20)</h3>
-      <script src="https://tulospalvelu.finnhandball.net/taso/widget.php?widget=scoretable&competition=hb2019&class=M1D&group=1&key=NBSJNW9ZKV"></script>
-    </div>
-    
-    <div class="torneopal_widget">
-      <h3>Joukkueen kaikki ottelut</h3>
-      <script src="https://tulospalvelu.finnhandball.net/taso/widget.php?widget=team_schedule&team=102936&key=NBSJNW9ZKV"></script>
+    <div class="table-container">
+      <div class="torneopal_widget">
+        <script src="https://tulospalvelu.finnhandball.net/taso/widget.php?widget=scoretable&competition=hb2019&class=M1D&group=1&key=NBSJNW9ZKV"></script>
+      </div>
+      
+      <div class="torneopal_widget">
+        <script src="https://tulospalvelu.finnhandball.net/taso/widget.php?widget=team_schedule&team=102936&key=NBSJNW9ZKV"></script>
+      </div>
     </div>
     
   </body>
